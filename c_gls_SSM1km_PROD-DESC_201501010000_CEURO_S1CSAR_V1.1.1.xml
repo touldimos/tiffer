@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c_gls_ProductSet.xsl"?>
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CGLSMetadata" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+  <fileIdentifier>
+    <gco:CharacterString>urn:cgls:global:ssm_v1_1km:SSM1km_201501010000_CEURO_S1CSAR_V1.1.1</gco:CharacterString>
+  </fileIdentifier>
+  <language>
+    <LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</LanguageCode>
+  </language>
+  <characterSet>
+    <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</MD_CharacterSetCode>
+  </characterSet>
+  <parentIdentifier>
+    <gco:CharacterString>urn:cgls:global:ssm_v1_1km</gco:CharacterString>
+  </parentIdentifier>
+  <hierarchyLevel>
+    <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</MD_ScopeCode>
+  </hierarchyLevel>
+  <contact>
+    <CI_ResponsibleParty>
+      <organisationName>
+        <gco:CharacterString>VITO NV</gco:CharacterString>
+      </organisationName>
+      <contactInfo>
+        <CI_Contact>
+          <address>
+            <CI_Address>
+              <deliveryPoint>
+                <gco:CharacterString>Boeretang 200</gco:CharacterString>
+              </deliveryPoint>
+              <city>
+                <gco:CharacterString>Mol</gco:CharacterString>
+              </city>
+              <postalCode>
+                <gco:CharacterString>2400</gco:CharacterString>
+              </postalCode>
+              <country>
+                <Country codeList="https://www.iso.org/obp/ui/" codeListValue="BE" codeSpace="ISO 3166-1">Belgium</Country>
+              </country>
+              <electronicMailAddress>
+                <gco:CharacterString>helpdeskticket@vgt.vito.be</gco:CharacterString>
+              </electronicMailAddress>
+            </CI_Address>
+          </address>
+          <onlineResource>
+            <CI_OnlineResource>
+              <linkage>
+                <URL>https://land.copernicus.eu/global/</URL>
+              </linkage>
+              <protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </protocol>
+              <name>
+                <gco:CharacterString>Copernicus Global Land service</gco:CharacterString>
+              </name>
+              <description>
+                <gco:CharacterString>Copernicus Global Land website</gco:CharacterString>
+              </description>
+              <function>
+                <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</CI_OnLineFunctionCode>
+              </function>
+            </CI_OnlineResource>
+          </onlineResource>
+          <hoursOfService>
+            <gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+          </hoursOfService>
+          <contactInstructions>
+            <gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+          </contactInstructions>
+        </CI_Contact>
+      </contactInfo>
+      <role>
+        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</CI_RoleCode>
+      </role>
+    </CI_ResponsibleParty>
+  </contact>
+  <dateStamp>
+    <gco:Date>2019-03-20</gco:Date>
+  </dateStamp>
+  <metadataStandardName>
+    <gco:CharacterString>ISO19115</gco:CharacterString>
+  </metadataStandardName>
+  <metadataStandardVersion>
+    <gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+  </metadataStandardVersion>
+  <spatialRepresentationInfo>
+    <MD_Georectified>
+      <numberOfDimensions>
+        <gco:Integer>2</gco:Integer>
+      </numberOfDimensions>
+      <axisDimensionProperties>
+        <MD_Dimension>
+          <dimensionName>
+            <MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">row</MD_DimensionNameTypeCode>
+          </dimensionName>
+          <dimensionSize>
+            <gco:Integer>4144</gco:Integer>
+          </dimensionSize>
+          <resolution>
+            <gco:Angle uom="deg">0.0089285714</gco:Angle>
+          </resolution>
+        </MD_Dimension>
+      </axisDimensionProperties>
+      <axisDimensionProperties>
+        <MD_Dimension>
+          <dimensionName>
+            <MD_DimensionNameTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">column</MD_DimensionNameTypeCode>
+          </dimensionName>
+          <dimensionSize>
+            <gco:Integer>6832</gco:Integer>
+          </dimensionSize>
+          <resolution>
+            <gco:Angle uom="deg">0.0089285714</gco:Angle>
+          </resolution>
+        </MD_Dimension>
+      </axisDimensionProperties>
+      <cellGeometry>
+        <MD_CellGeometryCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area">area</MD_CellGeometryCode>
+      </cellGeometry>
+      <transformationParameterAvailability>
+        <gco:Boolean>false</gco:Boolean>
+      </transformationParameterAvailability>
+      <checkPointAvailability>
+        <gco:Boolean>true</gco:Boolean>
+      </checkPointAvailability>
+      <checkPointDescription>
+        <gco:CharacterString>Upperleft corner tiepoint</gco:CharacterString>
+      </checkPointDescription>
+      <cornerPoints>
+        <gml:Point gml:id="upperLeftTiePoint_CEURO">
+          <gml:description>Upperleft corner tiepoint</gml:description>
+          <gml:identifier codeSpace="">upperLeftTiePoint</gml:identifier>
+          <gml:name>Tie Point in upper left corner</gml:name>
+          <gml:pos srsName="#WGS_1984">72.0 -11.0 0.0</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <pointInPixel>
+        <MD_PixelOrientationCode>center</MD_PixelOrientationCode>
+      </pointInPixel>
+    </MD_Georectified>
+  </spatialRepresentationInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <RS_Identifier>
+          <code>
+            <gco:CharacterString>EPSG:4326</gco:CharacterString>
+          </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG Geodetic Parameter Dataset</gco:CharacterString>
+          </codeSpace>
+        </RS_Identifier>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <RS_Identifier>
+          <code>
+            <gco:CharacterString>WGS84</gco:CharacterString>
+          </code>
+          <codeSpace>
+            <gco:CharacterString>World Geodetic System</gco:CharacterString>
+          </codeSpace>
+        </RS_Identifier>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <identificationInfo>
+    <MD_DataIdentification>
+      <citation>
+        <CI_Citation>
+          <title>
+            <gco:CharacterString>Daily Surface Soil Moisture 1km: CEURO 2015-01-01T00:00:00Z</gco:CharacterString>
+          </title>
+          <alternateTitle>
+            <gco:CharacterString>SSM1km_201501010000_CEURO_S1CSAR_V1.1.1</gco:CharacterString>
+          </alternateTitle>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2015-01-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <edition>
+            <gco:CharacterString>V1.1.1</gco:CharacterString>
+          </edition>
+          <editionDate>
+            <gco:Date>2019-03-20</gco:Date>
+          </editionDate>
+          <identifier>
+            <MD_Identifier>
+              <authority>
+                <CI_Citation>
+                  <title>
+                    <gco:CharacterString>ZAMG</gco:CharacterString>
+                  </title>
+                  <date>
+                    <CI_Date>
+                      <date>
+                        <gco:Date>2017-01-01</gco:Date>
+                      </date>
+                      <dateType>
+                        <CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                      </dateType>
+                    </CI_Date>
+                  </date>
+                </CI_Citation>
+              </authority>
+              <code>
+                <gco:CharacterString>urn:cgls:global:ssm_v1_1km:SSM1km_201501010000_CEURO_S1CSAR_V1.1.1</gco:CharacterString>
+              </code>
+            </MD_Identifier>
+          </identifier>
+          <otherCitationDetails>
+            <gco:CharacterString>https://land.copernicus.eu/global/documents/ssm1km/v1/pum</gco:CharacterString>
+          </otherCitationDetails>
+        </CI_Citation>
+      </citation>
+      <abstract>
+        <gco:CharacterString>Surface Soil Moisture (SSM) is the relative water content of the top few centimetres soil, describing how wet or dry the soil is in its topmost layer, expressed in percent saturation. It is measured by satellite radar sensors and allows insights in local precipitation impacts and soil conditions. 
+SSM is a key driver of water and heat fluxes between the ground and the atmosphere, regulating air temperature and humidity. Moreover, in its role as water supply, it is vital to vegetation health. Vice versa, SSM is very sensitive to external forcing in the form of precipitation, temperature, solar irradiation, humidity, and wind. SSM is thus both an integrator of climatic conditions and a driver of local weather and climate, and plays a major role in global water-, energy- and carbon- cycles. 
+Knowledge on the dynamics of soil moisture is important in the understanding of processes in many environmental and socio-economic fields, e.g., its impact on vegetation vitality, crop yield, droughts or exposure to flood threats.</gco:CharacterString>
+      </abstract>
+      <purpose>
+        <gco:CharacterString>This product is first designed to fit the requirements of the Global component of the Copernicus Land service. It can be also useful for all applications related to environment monitoring.</gco:CharacterString>
+      </purpose>
+      <credit>
+        <gco:CharacterString>SSM1km products were generated by the Global Land Service of Copernicus, the Earth Observation programme of the European Commission. The research leading to the current version of the product has received funding from various European Commission Research and Technical Development programs. This product has been generated from Sentinel-1 C-band SAR observations distributed by ESA.</gco:CharacterString>
+      </credit>
+      <status>
+        <MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</MD_ProgressCode>
+      </status>
+      <pointOfContact>
+        <CI_ResponsibleParty>
+          <organisationName>
+            <gco:CharacterString>TU Wien</gco:CharacterString>
+          </organisationName>
+          <positionName>
+            <gco:CharacterString>Researcher</gco:CharacterString>
+          </positionName>
+          <contactInfo>
+            <CI_Contact>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>Gusshausstrasse 27-29</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Vienna</gco:CharacterString>
+                  </city>
+                  <postalCode>
+                    <gco:CharacterString>1040</gco:CharacterString>
+                  </postalCode>
+                  <country>
+                    <Country codeList="https://www.iso.org/obp/ui/" codeListValue="AT" codeSpace="ISO 3166-1">Austria</Country>
+                  </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>bernhard.bauer-marschallinger@geo.tuwien.ac.at</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+              <onlineResource>
+                <CI_OnlineResource>
+                  <linkage>
+                    <URL>http://rs.geo.tuwien.ac.at</URL>
+                  </linkage>
+                  <protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </protocol>
+                  <name>
+                    <gco:CharacterString>TU Wien website</gco:CharacterString>
+                  </name>
+                  <description>
+                    <gco:CharacterString>Organisation website</gco:CharacterString>
+                  </description>
+                  <function>
+                    <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</CI_OnLineFunctionCode>
+                  </function>
+                </CI_OnlineResource>
+              </onlineResource>
+              <hoursOfService>
+                <gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+              </hoursOfService>
+              <contactInstructions>
+                <gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+              </contactInstructions>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </pointOfContact>
+      <pointOfContact>
+        <CI_ResponsibleParty>
+          <organisationName>
+            <gco:CharacterString>Earth Observation Data Centre for Water Resources Monitoring GmbH</gco:CharacterString>
+          </organisationName>
+          <positionName>
+            <gco:CharacterString>producer</gco:CharacterString>
+          </positionName>
+          <contactInfo>
+            <CI_Contact>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>EODC</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Vienna</gco:CharacterString>
+                  </city>
+                  <postalCode>
+                    <gco:CharacterString>A-1030</gco:CharacterString>
+                  </postalCode>
+                  <country>
+                    <Country codeList="https://www.iso.org/obp/ui/" codeListValue="AT" codeSpace="ISO 3166-1">Austria</Country>
+                  </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>Christoph.Reimer@eodc.eu</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+              <onlineResource>
+                <CI_OnlineResource>
+                  <linkage>
+                    <URL>http://www.eodc.eu/</URL>
+                  </linkage>
+                  <protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </protocol>
+                  <name>
+                    <gco:CharacterString>EODC website</gco:CharacterString>
+                  </name>
+                  <description>
+                    <gco:CharacterString>Organisation website</gco:CharacterString>
+                  </description>
+                  <function>
+                    <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</CI_OnLineFunctionCode>
+                  </function>
+                </CI_OnlineResource>
+              </onlineResource>
+              <hoursOfService>
+                <gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+              </hoursOfService>
+              <contactInstructions>
+                <gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+              </contactInstructions>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </pointOfContact>
+      <pointOfContact>
+        <CI_ResponsibleParty>
+          <organisationName>
+            <gco:CharacterString>European Commission Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs</gco:CharacterString>
+          </organisationName>
+          <positionName>
+            <gco:CharacterString>owner</gco:CharacterString>
+          </positionName>
+          <contactInfo>
+            <CI_Contact>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>Avenue d'Auderghem 45</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Brussels</gco:CharacterString>
+                  </city>
+                  <postalCode>
+                    <gco:CharacterString>1049</gco:CharacterString>
+                  </postalCode>
+                  <country>
+                    <Country codeList="https://www.iso.org/obp/ui/" codeListValue="BE" codeSpace="ISO 3166-1">Belgium</Country>
+                  </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>ENTR-COPERNICUS-ASSETS@ec.europa.eu</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+              <onlineResource>
+                <CI_OnlineResource>
+                  <linkage>
+                    <URL>http://www.copernicus.eu</URL>
+                  </linkage>
+                  <protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </protocol>
+                  <name>
+                    <gco:CharacterString>Copernicus programme website</gco:CharacterString>
+                  </name>
+                  <description>
+                    <gco:CharacterString>Organisation website</gco:CharacterString>
+                  </description>
+                  <function>
+                    <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</CI_OnLineFunctionCode>
+                  </function>
+                </CI_OnlineResource>
+              </onlineResource>
+              <hoursOfService>
+                <gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+              </hoursOfService>
+              <contactInstructions>
+                <gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+              </contactInstructions>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </pointOfContact>
+      <pointOfContact>
+        <CI_ResponsibleParty>
+          <organisationName>
+            <gco:CharacterString>European Commission Directorate-General Joint Research Centre</gco:CharacterString>
+          </organisationName>
+          <positionName>
+            <gco:CharacterString>responsible</gco:CharacterString>
+          </positionName>
+          <contactInfo>
+            <CI_Contact>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>Via E.Fermi, 249</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Ispra</gco:CharacterString>
+                  </city>
+                  <postalCode>
+                    <gco:CharacterString>21027</gco:CharacterString>
+                  </postalCode>
+                  <country>
+                    <Country codeList="https://www.iso.org/obp/ui/" codeListValue="IT" codeSpace="ISO 3166-1">Italy</Country>
+                  </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>copernicuslandproducts@jrc.ec.europa.eu</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+              <onlineResource>
+                <CI_OnlineResource>
+                  <linkage>
+                    <URL>https://ec.europa.eu/jrc/en</URL>
+                  </linkage>
+                  <protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </protocol>
+                  <name>
+                    <gco:CharacterString>EC-DG JRC website</gco:CharacterString>
+                  </name>
+                  <description>
+                    <gco:CharacterString>Organisation website</gco:CharacterString>
+                  </description>
+                  <function>
+                    <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</CI_OnLineFunctionCode>
+                  </function>
+                </CI_OnlineResource>
+              </onlineResource>
+              <hoursOfService>
+                <gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+              </hoursOfService>
+              <contactInstructions>
+                <gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+              </contactInstructions>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </pointOfContact>
+      <resourceMaintenance>
+        <MD_MaintenanceInformation>
+          <maintenanceAndUpdateFrequency>
+            <MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</MD_MaintenanceFrequencyCode>
+          </maintenanceAndUpdateFrequency>
+          <updateScope>
+            <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</MD_ScopeCode>
+          </updateScope>
+        </MD_MaintenanceInformation>
+      </resourceMaintenance>
+      <graphicOverview>
+        <MD_BrowseGraphic>
+          <fileName>
+            <gco:CharacterString>c_gls_SSM1km_QL_201501010000_CEURO_S1CSAR_V1.1.1.tiff</gco:CharacterString>
+          </fileName>
+          <fileDescription>
+            <gco:CharacterString>image of SSM 1km</gco:CharacterString>
+          </fileDescription>
+          <fileType>
+            <gco:CharacterString>geotiff</gco:CharacterString>
+          </fileType>
+        </MD_BrowseGraphic>
+      </graphicOverview>
+      <resourceFormat>
+        <MD_Format>
+          <name>
+            <gco:CharacterString>netCDF</gco:CharacterString>
+          </name>
+          <version>
+            <gco:CharacterString>4</gco:CharacterString>
+          </version>
+          <specification>
+            <gco:CharacterString>Network Common Data Form</gco:CharacterString>
+          </specification>
+        </MD_Format>
+      </resourceFormat>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Orthoimagery</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+              </title>
+              <date>
+                <CI_Date>
+                  <date>
+                    <gco:Date>2008-06-01</gco:Date>
+                  </date>
+                  <dateType>
+                    <CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                  </dateType>
+                </CI_Date>
+              </date>
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>geophysical environment</gco:CharacterString>
+          </keyword>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>GEMET - Concepts, version 2.1</gco:CharacterString>
+              </title>
+              <date>
+                <CI_Date>
+                  <date>
+                    <gco:Date>2008-06-13</gco:Date>
+                  </date>
+                  <dateType>
+                    <CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                  </dateType>
+                </CI_Date>
+              </date>
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>biogeophysical</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>soil moisture</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</MD_KeywordTypeCode>
+          </type>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Europe</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</MD_KeywordTypeCode>
+          </type>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Daily</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>daily composite</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal">temporal</MD_KeywordTypeCode>
+          </type>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <resourceConstraints>
+        <MD_Constraints>
+          <useLimitation>
+            <gco:CharacterString>No limitations</gco:CharacterString>
+          </useLimitation>
+        </MD_Constraints>
+      </resourceConstraints>
+      <resourceConstraints>
+        <MD_LegalConstraints>
+          <useConstraints>
+            <MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">@copernicus.eu</MD_RestrictionCode>
+          </useConstraints>
+        </MD_LegalConstraints>
+      </resourceConstraints>
+      <resourceConstraints>
+        <MD_LegalConstraints>
+          <accessConstraints>
+            <MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">data policy @copernicus.eu</MD_RestrictionCode>
+          </accessConstraints>
+          <otherConstraints>
+            <gco:CharacterString>(d) the confidentiality of commercial or industrial information, where such confidentiality is provided for by national or Community law to protect a legitimate economic interest, including the public interest in maintaining statistical confidentiality and tax secrecy.</gco:CharacterString>
+          </otherConstraints>
+        </MD_LegalConstraints>
+      </resourceConstraints>
+      <aggregationInfo>
+        <MD_AggregateInformation>
+          <associationType>
+            <DS_AssociationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="partOfSeamlessDatabase">partOfSeamlessDatabase</DS_AssociationTypeCode>
+          </associationType>
+          <initiativeType>
+            <DS_InitiativeTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="project">project</DS_InitiativeTypeCode>
+          </initiativeType>
+        </MD_AggregateInformation>
+      </aggregationInfo>
+      <aggregationInfo>
+        <MD_AggregateInformation>
+          <associationType>
+            <DS_AssociationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="source">source</DS_AssociationTypeCode>
+          </associationType>
+          <initiativeType>
+            <DS_InitiativeTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="platform">Sentinel-1 A+B</DS_InitiativeTypeCode>
+          </initiativeType>
+        </MD_AggregateInformation>
+      </aggregationInfo>
+      <aggregationInfo>
+        <MD_AggregateInformation>
+          <associationType>
+            <DS_AssociationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="source">source</DS_AssociationTypeCode>
+          </associationType>
+          <initiativeType>
+            <DS_InitiativeTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="sensor">CSAR</DS_InitiativeTypeCode>
+          </initiativeType>
+        </MD_AggregateInformation>
+      </aggregationInfo>
+      <spatialRepresentationType>
+        <MD_SpatialRepresentationTypeCode codeList="MD_SpatialRepresentationTypeCode" codeListValue="grid" />
+      </spatialRepresentationType>
+      <spatialResolution>
+        <MD_Resolution>
+          <distance>
+            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/gmxUom.xml#deg">0.0089285714</gco:Distance>
+          </distance>
+        </MD_Resolution>
+      </spatialResolution>
+      <language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </language>
+      <characterSet>
+        <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</MD_CharacterSetCode>
+      </characterSet>
+      <topicCategory>
+        <MD_TopicCategoryCode>imageryBaseMapsEarthCover</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>biota</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>farming</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
+      </topicCategory>
+      <extent>
+        <EX_Extent>
+          <geographicElement>
+            <EX_GeographicBoundingBox>
+              <westBoundLongitude>
+                <gco:Decimal>-11.00000000</gco:Decimal>
+              </westBoundLongitude>
+              <eastBoundLongitude>
+                <gco:Decimal>50.00000000</gco:Decimal>
+              </eastBoundLongitude>
+              <southBoundLatitude>
+                <gco:Decimal>35.00000000</gco:Decimal>
+              </southBoundLatitude>
+              <northBoundLatitude>
+                <gco:Decimal>72.00000000</gco:Decimal>
+              </northBoundLatitude>
+            </EX_GeographicBoundingBox>
+          </geographicElement>
+        </EX_Extent>
+      </extent>
+      <extent>
+        <EX_Extent>
+          <temporalElement>
+            <EX_TemporalExtent>
+              <extent>
+                <gml:TimePeriod frame="#ISO-8601" gml:id="extent_tp">
+                  <gml:description>1-day composite</gml:description>
+                  <gml:name>daily</gml:name>
+                  <gml:beginPosition>2015-01-01T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition>2015-01-01T23:59:59Z</gml:endPosition>
+                </gml:TimePeriod>
+              </extent>
+            </EX_TemporalExtent>
+          </temporalElement>
+        </EX_Extent>
+      </extent>
+    </MD_DataIdentification>
+  </identificationInfo>
+  <contentInfo>
+    <MD_CoverageDescription uuid="ssm">
+      <attributeDescription>
+        <gco:RecordType>ssm (Surface Soil Moisture in % saturation)</gco:RecordType>
+      </attributeDescription>
+      <contentType>
+        <MD_CoverageContentTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image" />
+      </contentType>
+      <dimension>
+        <MD_Band>
+          <sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Digital Number</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>value type</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </sequenceIdentifier>
+          <descriptor>
+            <gco:CharacterString>Significant digital value range</gco:CharacterString>
+          </descriptor>
+          <maxValue>
+            <gco:Real>200</gco:Real>
+          </maxValue>
+          <minValue>
+            <gco:Real>0</gco:Real>
+          </minValue>
+          <bitsPerValue>
+            <gco:Integer>8</gco:Integer>
+          </bitsPerValue>
+          <scaleFactor>
+            <gco:Real>0.5</gco:Real>
+          </scaleFactor>
+          <offset>
+            <gco:Real>0</gco:Real>
+          </offset>
+        </MD_Band>
+      </dimension>
+      <dimension>
+        <MD_Band>
+          <sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Physical Value</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>value type</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </sequenceIdentifier>
+          <descriptor>
+            <gco:CharacterString>significant physical value range</gco:CharacterString>
+          </descriptor>
+          <maxValue>
+            <gco:Real>100</gco:Real>
+          </maxValue>
+          <minValue>
+            <gco:Real>0</gco:Real>
+          </minValue>
+          <units>
+            <gml:UnitDefinition gml:id="percentage_ssm">
+              <gml:description>%</gml:description>
+              <gml:identifier codeSpace="">%</gml:identifier>
+              <gml:name>-</gml:name>
+              <gml:remarks />
+              <gml:quantityType>SSM percentage saturation</gml:quantityType>
+            </gml:UnitDefinition>
+          </units>
+        </MD_Band>
+      </dimension>
+    </MD_CoverageDescription>
+  </contentInfo>
+  <contentInfo>
+    <MD_CoverageDescription uuid="ssm_noise">
+      <attributeDescription>
+        <gco:RecordType>ssm_noise (noise on Surface Soil Moisture)</gco:RecordType>
+      </attributeDescription>
+      <contentType>
+        <MD_CoverageContentTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image" />
+      </contentType>
+      <dimension>
+        <MD_Band>
+          <sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Digital Number</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>value type</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </sequenceIdentifier>
+          <descriptor>
+            <gco:CharacterString>Significant digital value range</gco:CharacterString>
+          </descriptor>
+          <maxValue>
+            <gco:Real>200</gco:Real>
+          </maxValue>
+          <minValue>
+            <gco:Real>0</gco:Real>
+          </minValue>
+          <bitsPerValue>
+            <gco:Integer>8</gco:Integer>
+          </bitsPerValue>
+          <scaleFactor>
+            <gco:Real>0.5</gco:Real>
+          </scaleFactor>
+          <offset>
+            <gco:Real>0</gco:Real>
+          </offset>
+        </MD_Band>
+      </dimension>
+      <dimension>
+        <MD_Band>
+          <sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gco:CharacterString>Physical Value</gco:CharacterString>
+              </gco:aName>
+              <gco:attributeType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>value type</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </gco:attributeType>
+            </gco:MemberName>
+          </sequenceIdentifier>
+          <descriptor>
+            <gco:CharacterString>significant physical value range</gco:CharacterString>
+          </descriptor>
+          <maxValue>
+            <gco:Real>100</gco:Real>
+          </maxValue>
+          <minValue>
+            <gco:Real>0</gco:Real>
+          </minValue>
+          <units>
+            <gml:UnitDefinition gml:id="percentage_ssm_noise">
+              <gml:description />
+              <gml:identifier codeSpace="" />
+              <gml:name>-</gml:name>
+              <gml:remarks />
+              <gml:quantityType>Surface State Flag (SSF)</gml:quantityType>
+            </gml:UnitDefinition>
+          </units>
+        </MD_Band>
+      </dimension>
+    </MD_CoverageDescription>
+  </contentInfo>
+  <distributionInfo>
+    <MD_Distribution>
+      <distributionFormat>
+        <MD_Format>
+          <name>
+            <gco:CharacterString>netCDF</gco:CharacterString>
+          </name>
+          <version>
+            <gco:CharacterString>4</gco:CharacterString>
+          </version>
+          <specification>
+            <gco:CharacterString>Network Common Data Form</gco:CharacterString>
+          </specification>
+        </MD_Format>
+      </distributionFormat>
+      <distributor>
+        <MD_Distributor>
+          <distributorContact>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>VITO NV</gco:CharacterString>
+              </organisationName>
+              <positionName>
+                <gco:CharacterString>Copernicus Global Land Service Help Desk</gco:CharacterString>
+              </positionName>
+              <contactInfo>
+                <CI_Contact>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>Boeretang 200</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Mol</gco:CharacterString>
+                      </city>
+                      <postalCode>
+                        <gco:CharacterString>2400</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="https://www.iso.org/obp/ui/" codeListValue="BE" codeSpace="ISO 3166-1">Belgium</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>helpdeskticket@vgt.vito.be</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                  <onlineResource>
+                    <CI_OnlineResource>
+                      <linkage>
+                        <URL>https://land.copernicus.eu/global/</URL>
+                      </linkage>
+                      <protocol>
+                        <gco:CharacterString>HTTP</gco:CharacterString>
+                      </protocol>
+                      <name>
+                        <gco:CharacterString>VITO website</gco:CharacterString>
+                      </name>
+                      <description>
+                        <gco:CharacterString>Organisation website</gco:CharacterString>
+                      </description>
+                      <function>
+                        <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</CI_OnLineFunctionCode>
+                      </function>
+                    </CI_OnlineResource>
+                  </onlineResource>
+                  <hoursOfService>
+                    <gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+                  </hoursOfService>
+                  <contactInstructions>
+                    <gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+                  </contactInstructions>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </distributorContact>
+          <distributionOrderProcess>
+            <MD_StandardOrderProcess>
+              <fees>
+                <gco:CharacterString>Free</gco:CharacterString>
+              </fees>
+              <orderingInstructions>
+                <gco:CharacterString>Products can be downloaded online via HTTP (or FTP) or can be received through EUMETCast satellite reception in Europe and Africa. When ordering products from the online archive or subscribing to receive future products, users are informed via e-mail whenever the requested products are ready to be downloaded on the FTP server.</gco:CharacterString>
+              </orderingInstructions>
+            </MD_StandardOrderProcess>
+          </distributionOrderProcess>
+        </MD_Distributor>
+      </distributor>
+      <transferOptions>
+        <MD_DigitalTransferOptions>
+          <unitsOfDistribution>
+            <gco:CharacterString>Per product</gco:CharacterString>
+          </unitsOfDistribution>
+          <onLine>
+            <CI_OnlineResource>
+              <linkage>
+                <URL>https://land.copernicus.eu/global/products/ssm</URL>
+              </linkage>
+              <protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </protocol>
+              <name>
+                <gco:CharacterString>Copernicus Global Land Service</gco:CharacterString>
+              </name>
+              <description>
+                <gco:CharacterString>1. Search, download and custom order products from Catalogue and Ordering services</gco:CharacterString>
+              </description>
+              <function>
+                <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+              </function>
+            </CI_OnlineResource>
+          </onLine>
+        </MD_DigitalTransferOptions>
+      </transferOptions>
+      <transferOptions>
+        <MD_DigitalTransferOptions>
+          <unitsOfDistribution>
+            <gco:CharacterString>Per product</gco:CharacterString>
+          </unitsOfDistribution>
+          <onLine>
+            <CI_OnlineResource>
+              <linkage>
+                <URL>https://land.copernicus.eu/global/access</URL>
+              </linkage>
+              <protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </protocol>
+              <name>
+                <gco:CharacterString>Copernicus Global Land Service</gco:CharacterString>
+              </name>
+              <description>
+                <gco:CharacterString>2. Subscribe to receive future products via e-mail</gco:CharacterString>
+              </description>
+              <function>
+                <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+              </function>
+            </CI_OnlineResource>
+          </onLine>
+        </MD_DigitalTransferOptions>
+      </transferOptions>
+      <transferOptions>
+        <MD_DigitalTransferOptions>
+          <unitsOfDistribution>
+            <gco:CharacterString>Per product</gco:CharacterString>
+          </unitsOfDistribution>
+          <onLine>
+            <CI_OnlineResource>
+              <linkage>
+                <URL>http://eoportal.eumetsat.int</URL>
+              </linkage>
+              <name>
+                <gco:CharacterString>Copernicus Global Land Service</gco:CharacterString>
+              </name>
+              <description>
+                <gco:CharacterString>3. Register to receive products via EUMETCast</gco:CharacterString>
+              </description>
+            </CI_OnlineResource>
+          </onLine>
+        </MD_DigitalTransferOptions>
+      </transferOptions>
+    </MD_Distribution>
+  </distributionInfo>
+  <dataQualityInfo>
+    <DQ_DataQuality>
+      <scope>
+        <DQ_Scope>
+          <level>
+            <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</MD_ScopeCode>
+          </level>
+        </DQ_Scope>
+      </scope>
+      <report>
+        <DQ_NonQuantitativeAttributeAccuracy>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <CI_Citation>
+                  <title>
+                    <gco:CharacterString>Validation results</gco:CharacterString>
+                  </title>
+                  <date>
+                    <CI_Date>
+                      <date>
+                        <gco:Date>2010-12-01</gco:Date>
+                      </date>
+                      <dateType>
+                        <CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                      </dateType>
+                    </CI_Date>
+                  </date>
+                </CI_Citation>
+              </specification>
+              <explanation>
+                <gco:CharacterString>https://land.copernicus.eu/global/documents/ssm1km/v1/vr</gco:CharacterString>
+              </explanation>
+              <pass>
+                <gco:Boolean>true</gco:Boolean>
+              </pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_NonQuantitativeAttributeAccuracy>
+      </report>
+      <report>
+        <DQ_DomainConsistency>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <CI_Citation>
+                  <title>
+                    <gco:CharacterString>INSPIRE Data Specification on orthoimagery - Guidelines</gco:CharacterString>
+                  </title>
+                  <date>
+                    <CI_Date>
+                      <date>
+                        <gco:Date>2010-04-26</gco:Date>
+                      </date>
+                      <dateType>
+                        <CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                      </dateType>
+                    </CI_Date>
+                  </date>
+                </CI_Citation>
+              </specification>
+              <explanation>
+                <gco:CharacterString>See the referenced specification</gco:CharacterString>
+              </explanation>
+              <pass>
+                <gco:Boolean>true</gco:Boolean>
+              </pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_DomainConsistency>
+      </report>
+      <lineage>
+        <LI_Lineage>
+          <statement>
+            <gco:CharacterString>The SSM algorithm is originally developed at Vienna University of Technology (TU Wien) and first terrain geo-corrects and radiometrically calibrates the Level-1 Sentinel-1 C-band SAR backscatter values. Then, in the TUWien-Change-Detection model, dry and wet soil conditions are modelled from long term backscatter measurements and the backscatter is normalized to the common reference angle of 40 degrees. The relative surface soil moisture estimates range between 0 and 100 percent and are derived by linearly scaling the angle-normalized backscatter between the lowest/highest backscatter values at each individual location. The relative SSM is provided as percent saturation and can be further translated to absolute volumetric soil moisture by using porosity information.</gco:CharacterString>
+          </statement>
+        </LI_Lineage>
+      </lineage>
+    </DQ_DataQuality>
+  </dataQualityInfo>
+  <metadataMaintenance>
+    <MD_MaintenanceInformation>
+      <maintenanceAndUpdateFrequency>
+        <MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</MD_MaintenanceFrequencyCode>
+      </maintenanceAndUpdateFrequency>
+    </MD_MaintenanceInformation>
+  </metadataMaintenance>
+</MD_Metadata>
